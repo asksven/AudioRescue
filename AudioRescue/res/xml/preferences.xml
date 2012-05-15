@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory android:title="Display">
+
+		<CheckBoxPreference 
+			android:key="show_toasts"
+			android:summary="Show toasts on status change"
+			android:title="Show toasts" 
+			android:defaultValue="true"
+	    />    
+	 
+	</PreferenceCategory>
+
+	<PreferenceCategory android:title="Handlers">
+	    <CheckBoxPreference 
+			android:key="earpiece_control"
+			android:summary="Turn earpiece on/off"
+			android:title="Handle earpiece" 
+			android:defaultValue="true"/>
+	        
+	    <CheckBoxPreference 
+			android:key="headset_control"
+			android:summary="Turn headset on/off"
+			android:title="Handle headset" 
+			android:defaultValue="true"/>    
+	    	    
+    </PreferenceCategory>
+    
+</PreferenceScreen>
